@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.col-1 {
+    background-color: rgb(216, 189, 71);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+    background-color: rgb(45, 49, 45);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    font-size: medium;
+    position: relative;
+    margin-left: 4vh;
+    column-gap: 2vh;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    font-size: medium;
+    position: relative;
+    margin-left: 4vh;
+    column-gap: 2vh;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    font-size: medium;
+    position: relative;
+    margin-left: 4vh;
+    column-gap: 2vh;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+}
+
+.Name>photo {
+    flex: 1;
+    min-height: 10vh;
+}
+
+.second progress {
+    flex: 1;
+    min-height: 80vh;
+}
+
+.content>about_me {
+    flex: 1;
+    min-height: 30vh;
+}
+
+.content>education {
+    flex: 1;
+}
+
+.content2>strengths {
+    flex: 1;
+    min-height: 50vh;
+}
+
+.content2>clubs {
+    flex: 1;
+}
+
+.content3>contact {
+    flex: 1;
+    min-height: 20vh;
+}
+
+.content3>design {
+    flex: 1;
+}
+
+.col-1>Name {
+    display: flex;
+    flex-direction: row;
+}
+
+name {
+    text-align: center;
+    position: relative;
+    top: 2vh;
+    flex: 1;
+    font-size: medium;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.content3 design {
+    font-size: x-small;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 15%;
+    color: green;
+}
+
+#head2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#ek-met {
+    position: relative;
+    margin-top: -1vh;
+    margin-left: 3vh;
+    color: darkseagreen;
+}
+
+#role {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: beige;
+}
+
+nav,
+content,
+content2,
+content3 {
+    padding: 1em;
+}
